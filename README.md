@@ -6,7 +6,7 @@ It includes modern sections like editor’s choice, blog, testimonials, articles
 ---
 
 ## 📸 Preview  
-![Sucharu Template Screenshot](assets/images/sucharu/preview.png)  
+![Sucharu Template Screenshot](./assets/images/sucharu/preview.png)  
 
 ---
 
