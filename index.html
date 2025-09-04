@@ -1,0 +1,2734 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sucharu</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="boost.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand font-weight-bold" href="#">
+        <h5 class="mb-0" style="font-size: xx-large">Sucharu</h5>
+      </a>
+
+      <!-- Toggle for mobile -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Style Guide</a>
+          </li>
+
+          <!-- Posts Dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-toggle="dropdown"
+            >
+              Posts
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Post default</a>
+              <a class="dropdown-item" href="#">Post centered header</a>
+              <a class="dropdown-item" href="#">Post header horizontal</a>
+              <a class="dropdown-item" href="#">Post narrow image</a>
+              <a class="dropdown-item" href="#">Post with TOC</a>
+              <a class="dropdown-item" href="#">Members only post</a>
+            </div>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="#">Tags</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Authors</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Membership</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+
+          <!-- More Dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-toggle="dropdown"
+            >
+              More
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Landing page</a>
+              <a class="dropdown-item" href="#">Features</a>
+              <a class="dropdown-item" href="#">Account free</a>
+              <a class="dropdown-item" href="#">Account paid</a>
+              <a class="dropdown-item" href="#">Sign in no image</a>
+              <a class="dropdown-item" href="#">Sign up no image</a>
+              <a class="dropdown-item" href="#">Portal</a>
+              <a class="dropdown-item" href="#">Documentation</a>
+              <a class="dropdown-item" href="#">Get this theme</a>
+              <a class="dropdown-item" href="#">404 error</a>
+            </div>
+          </li>
+        </ul>
+
+        <!-- Right side icons -->
+        <div class="d-flex align-items-center">
+          <a class="nav-link" href="#"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+          <a class="nav-link" href="#"><i class="fa-regular fa-moon"></i></a>
+          <a class="nav-link text-dark" href="#">Sign In</a>
+          <button
+            type="button"
+            class="btn text-white ml-2"
+            style="
+              width: 200px;
+              height: 45px;
+              border-radius: 30px;
+              background-color: rgb(178, 57, 191);
+            "
+          >
+            Become member
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="nav-below py-5">
+      <div class="container">
+        <div class="row text-center text-lg-center">
+          <div class="col-lg-12">
+            <h1 class="font-weight-bold" style="font-size: 2.5rem">
+              Hey, We're <span class="text-danger">Sucharu</span>, Explore
+              <br />
+              our Thoughts, Stories, Ideas.
+            </h1>
+            <p class="mt-3" style="font-size: 18px">
+              This Ghost theme is perfect for
+              <b>magazine, newsletter, professional and personal blog</b><br />
+              publishing. Crafted readers in mind. <b>Customizable features</b>
+              tailored to your creative vision.
+            </p>
+
+            <!-- Search button -->
+            <div class="d-flex justify-content-center mt-3">
+              <button
+                type="button"
+                class="btn btn-light btn-lg d-flex align-items-center"
+              >
+                Search post, tags, and authors
+                <i class="fa-solid fa-magnifying-glass ml-3"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- card section -->
+    <section>
+      <div class="container-fluid card-section mt-5">
+        <div class="row justify-content-center">
+          <!-- Card 1 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
+            <div class="card align-items-center" style="border-radius: 15px">
+              <img
+                src="assets/images/sucharu/photo1.webp"
+                class="card-img-top p-3"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-text">Technology</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+            <div class="card align-items-center" style="border-radius: 15px">
+              <img
+                src="assets/images/sucharu/photo2.webp"
+                class="card-img-top p-3"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-text">Technology</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+            <div class="card align-items-center" style="border-radius: 15px">
+              <img
+                src="assets/images/sucharu/photo3.webp"
+                class="card-img-top p-3"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-text">Technology</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+            <div class="card align-items-center" style="border-radius: 15px">
+              <img
+                src="assets/images/sucharu/photo4.webp"
+                class="card-img-top p-3"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-text">Technology</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+            <div class="card align-items-center" style="border-radius: 15px">
+              <img
+                src="assets/images/sucharu/photo1.webp"
+                class="card-img-top p-3"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-text">Technology</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- secondCard section -->
+    <section class="secondCard">
+      <div class="container-fluid mt-5">
+        <div class="row">
+          <!-- Left Card -->
+          <div class="col-sm-12 col-md-6 mb-4">
+            <div class="card h-100" style="border-radius: 15px">
+              <img
+                src="assets/images/sucharu/2card1.webp"
+                class="card-img-top p-4"
+                alt="..."
+                style="height: 475px; border-radius: 50px"
+              />
+              <div class="d-flex ml-2 mt-2">
+                <a class="nav-link p-0 mr-2" href="#"
+                  ><i class="fa-regular fa-star"></i
+                ></a>
+                <button
+                  type="button"
+                  class="btn btn-danger btn-sm"
+                  style="border-radius: 70px; height: 30px"
+                >
+                  Technology
+                </button>
+              </div>
+              <div class="card-body">
+                <h5
+                  class="card-title"
+                  style="font-size: 30px; font-weight: 900"
+                >
+                  Quantum Computing is <br />
+                  Unraveling the Future of <br />
+                  Technology
+                </h5>
+              </div>
+              <div class="px-3 pb-3">
+                <img
+                  src="assets/images/sucharu/2cardfooter2.jpg"
+                  alt=""
+                  style="
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    float: left;
+                  "
+                />
+                <p class="ml-5 mb-0">
+                  <a href="#" style="color: black">Biswajit Saha </a> | 3 min
+                  read |
+                  <a href="#" style="color: black"
+                    ><i class="fa-regular fa-message"></i> 1</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Card -->
+          <div class="col-sm-12 col-md-6 mb-4">
+            <div class="card h-100" style="border-radius: 15px">
+              <img
+                src="assets/images/sucharu/2card2.webp"
+                class="card-img-top p-4"
+                alt="..."
+                style="height: 475px; border-radius: 50px"
+              />
+              <div class="d-flex ml-2 mt-2">
+                <a class="nav-link p-0 mr-2" href="#"
+                  ><i class="fa-regular fa-star"></i
+                ></a>
+                <button
+                  type="button"
+                  class="btn btn-danger btn-sm"
+                  style="border-radius: 70px; height: 30px"
+                >
+                  Technology
+                </button>
+              </div>
+              <div class="card-body">
+                <h5
+                  class="card-title"
+                  style="font-size: 30px; font-weight: 900"
+                >
+                  Quantum Computing is <br />
+                  Unraveling the Future of <br />
+                  Technology
+                </h5>
+              </div>
+              <div class="px-3 pb-3">
+                <img
+                  src="assets/images/sucharu/2cardfooter1.jpeg"
+                  alt=""
+                  style="
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    float: left;
+                  "
+                />
+                <p class="ml-5 mb-0">
+                  <a href="#" style="color: black">Biswajit Saha </a> | 3 min
+                  read |
+                  <a href="#" style="color: black"
+                    ><i class="fa-regular fa-message"></i> 1</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- editor section -->
+    <section class="editor">
+      <div class="container-fluid mt-5">
+        <div class="row">
+          <div class="col-12">
+            <h1>Editors <span style="color: red">choice</span></h1>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <!-- Left Big Card -->
+          <div class="col-12 col-sm-12 col-md-6 mb-4">
+            <div class="card h-100" style="border-radius: 15px">
+              <div class="d-flex ml-2 mt-3">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-danger"
+                  style="border-radius: 70px; height: 30px"
+                >
+                  Technology
+                </button>
+              </div>
+              <div class="card-body">
+                <h5
+                  class="card-title"
+                  style="font-size: xx-large; font-weight: 900"
+                >
+                  Innovating the Future <br />
+                  Plate: Exploring the <br />
+                  Evolution of Food <br />
+                  Technology
+                </h5>
+              </div>
+              <div class="px-3 pb-3">
+                <img
+                  src="assets/images/sucharu/2cardfooter1.jpeg"
+                  alt=""
+                  style="
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    float: left;
+                  "
+                />
+                <p class="ml-5 mb-0">
+                  <a href="#" style="color: black">Biswajit Saha</a> | 3 min
+                  read |
+                  <a href="#" style="color: black"
+                    ><i class="fa-regular fa-message"></i> 1</a
+                  >
+                </p>
+              </div>
+              <img
+                src="assets/images/sucharu/editor1.webp"
+                class="card-img-top p-4"
+                alt="..."
+                style="height: 490px; border-radius: 40px; object-fit: cover"
+              />
+            </div>
+          </div>
+
+          <!-- Right Side Small Cards -->
+          <div class="col-sm-12 col-md-6">
+            <!-- Card 1 -->
+            <div class="card mb-3" style="border-radius: 15px">
+              <div class="row no-gutters">
+                <div class="col-12 col-sm-4">
+                  <img
+                    src="assets/images/sucharu/editor2.webp"
+                    alt="..."
+                    class="m-3"
+                    style="
+                      width: 100%;
+                      height: 200px;
+                      border-radius: 10px;
+                      object-fit: cover;
+                    "
+                  />
+                </div>
+                <div class="col-12 col-sm-8">
+                  <div class="d-flex ml-3 mt-3">
+                    <a class="nav-link p-0 mr-2" href="#"
+                      ><i class="fa-solid fa-lock"></i
+                    ></a>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-danger"
+                      style="border-radius: 70px; height: 30px"
+                    >
+                      Technology
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5
+                      class="card-title"
+                      style="font-size: large; font-weight: 900"
+                    >
+                      Nurturing Wellness: Embracing <br />
+                      Holistic Health in Everyday Life
+                    </h5>
+                    <div class="mt-3">
+                      <img
+                        src="assets/images/sucharu/2cardfooter2.jpg"
+                        alt=""
+                        style="
+                          width: 30px;
+                          height: 30px;
+                          border-radius: 50%;
+                          float: left;
+                        "
+                      />
+                      <p class="ml-5 mb-0" style="font-size: small">
+                        <a href="#" style="color: black">Biswajit Saha</a> | 3
+                        min read
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card mb-3" style="border-radius: 15px">
+              <div class="row no-gutters">
+                <div class="col-12 col-sm-4">
+                  <img
+                    src="assets/images/sucharu/editor3.jpg"
+                    alt="..."
+                    class="m-3"
+                    style="
+                      width: 100%;
+                      height: 200px;
+                      border-radius: 10px;
+                      object-fit: cover;
+                    "
+                  />
+                </div>
+                <div class="col-12 col-sm-8">
+                  <div class="d-flex ml-3 mt-3">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-danger"
+                      style="border-radius: 70px; height: 30px"
+                    >
+                      Technology
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5
+                      class="card-title"
+                      style="font-size: large; font-weight: 900"
+                    >
+                      Nurturing Wellness: Embracing <br />
+                      Holistic Health in Everyday Life
+                    </h5>
+                    <div class="mt-3">
+                      <img
+                        src="assets/images/sucharu/2cardfooter2.jpg"
+                        alt=""
+                        style="
+                          width: 30px;
+                          height: 30px;
+                          border-radius: 50%;
+                          float: left;
+                        "
+                      />
+                      <p class="ml-5 mb-0" style="font-size: small">
+                        <a href="#" style="color: black">Biswajit Saha</a> | 3
+                        min read |
+                        <a href="#" style="color: black"
+                          ><i class="fa-regular fa-message"></i> 1</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card mb-3" style="border-radius: 15px">
+              <div class="row no-gutters">
+                <div class="col-12 col-sm-4">
+                  <img
+                    src="assets/images/sucharu/editor5.jpg"
+                    alt="..."
+                    class="m-3"
+                    style="
+                      width: 100%;
+                      height: 200px;
+                      border-radius: 10px;
+                      object-fit: cover;
+                    "
+                  />
+                </div>
+                <div class="col-12 col-sm-8">
+                  <div class="d-flex ml-3 mt-3">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-danger"
+                      style="border-radius: 70px; height: 30px"
+                    >
+                      Technology
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <h5
+                      class="card-title"
+                      style="font-size: large; font-weight: 900"
+                    >
+                      Nurturing Wellness: Embracing <br />
+                      Holistic Health in Everyday Life
+                    </h5>
+                    <div class="mt-3">
+                      <img
+                        src="assets/images/sucharu/2cardfooter2.jpg"
+                        alt=""
+                        style="
+                          width: 30px;
+                          height: 30px;
+                          border-radius: 50%;
+                          float: left;
+                        "
+                      />
+                      <p class="ml-5 mb-0" style="font-size: small">
+                        <a href="#" style="color: black">Biswajit Saha</a> | 3
+                        min read |
+                        <a href="#" style="color: black"
+                          ><i class="fa-regular fa-message"></i> 1</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Right side end -->
+        </div>
+      </div>
+    </section>
+
+    <!-- inspiration section -->
+    <section class="inspiration m-4">
+      <div class="container-fluid">
+        <div class="row">
+          <nav>
+            <div class="nav nav-tabs mt-4 ml-4" id="nav-tab" role="tablist">
+              <button
+                class="nav-link active"
+                id="nav-home-tab"
+                data-toggle="tab"
+                data-target="#nav-home"
+                type="button"
+                role="tab"
+                aria-controls="nav-home"
+                aria-selected="true"
+              >
+                Inspiration
+              </button>
+              <button
+                class="nav-link"
+                id="nav-profile-tab"
+                data-toggle="tab"
+                data-target="#nav-profile"
+                type="button"
+                role="tab"
+                aria-controls="nav-profile"
+                aria-selected="false"
+              >
+                Lifesytle
+              </button>
+              <button
+                class="nav-link"
+                id="nav-contact-tab"
+                data-toggle="tab"
+                data-target="#nav-contact"
+                type="button"
+                role="tab"
+                aria-controls="nav-contact"
+                aria-selected="false"
+              >
+                Technology
+              </button>
+              <button
+                class="nav-link"
+                id="nav-home-tab"
+                data-toggle="tab"
+                data-target="#nav-home"
+                type="button"
+                role="tab"
+                aria-controls="nav-home"
+                aria-selected="true"
+              >
+                Health
+              </button>
+              <button
+                class="nav-link"
+                id="nav-contact-tab"
+                data-toggle="tab"
+                data-target="#nav-contact"
+                type="button"
+                role="tab"
+                aria-controls="nav-contact"
+                aria-selected="false"
+              >
+                Travel
+              </button>
+
+              <button
+                class="nav-link"
+                id="nav-profile-tab"
+                data-toggle="tab"
+                data-target="#nav-profile"
+                type="button"
+                role="tab"
+                aria-controls="nav-profile"
+                aria-selected="false"
+              >
+                Food
+              </button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="nav-home"
+              role="tabpanel"
+              aria-labelledby="nav-home-tab"
+            >
+              <div class="row">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div class="card-deck mt-5">
+                    <div class="card" style="border-radius: 15px">
+                      <img
+                        src="assets/images/sucharu/inspiration1.webp"
+                        class="card-img-top p-4"
+                        alt="..."
+                        style="height: 300px; border-radius: 50px"
+                      />
+
+                      <div class="card-body">
+                        <h5
+                          class="card-title secondCard-para"
+                          style="font-size: large; font-weight: 900"
+                        >
+                          Journeying Through India: A Tapestry of Culture,
+                          Color, and Contrasts
+                        </h5>
+                      </div>
+                      <div>
+                        <img
+                          src="assets/images/sucharu/2cardfooter2.jpg"
+                          alt=""
+                          class="ml-4"
+                          style="
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            float: left;
+                          "
+                        />
+                        <p>
+                          &nbsp;&nbsp;<a href="" style="color: black"
+                            >Biswajit Saha
+                          </a>
+                          &nbsp;| &nbsp;3 min read &nbsp; |&nbsp;
+                          <a href="" style="color: black"
+                            ><i class="fa-regular fa-message"></i>&nbsp;1
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div class="card-deck mt-5">
+                    <div class="card" style="border-radius: 15px">
+                      <img
+                        src="assets/images/sucharu/inspiration2.webp"
+                        class="card-img-top p-4"
+                        alt="..."
+                        style="height: 300px; border-radius: 50px"
+                      />
+
+                      <div class="card-body">
+                        <h5
+                          class="card-title secondCard-para"
+                          style="font-size: large; font-weight: 900"
+                        >
+                          Journeying Through India: A Tapestry of Culture,
+                          Color, and Contrasts
+                        </h5>
+                      </div>
+                      <div>
+                        <img
+                          src="assets/images/sucharu/2cardfooter2.jpg"
+                          alt=""
+                          class="ml-4"
+                          style="
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            float: left;
+                          "
+                        />
+                        <p>
+                          &nbsp;&nbsp;<a href="" style="color: black"
+                            >Biswajit Saha
+                          </a>
+                          &nbsp;| &nbsp;3 min read &nbsp; |&nbsp;
+                          <a href="" style="color: black"
+                            ><i class="fa-regular fa-message"></i>&nbsp;1
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div class="card-deck mt-5">
+                    <div class="card" style="border-radius: 15px">
+                      <img
+                        src="assets/images/sucharu/inspiration3.webp"
+                        class="card-img-top p-4"
+                        alt="..."
+                        style="height: 300px; border-radius: 50px"
+                      />
+
+                      <div class="card-body">
+                        <h5
+                          class="card-title secondCard-para"
+                          style="font-size: large; font-weight: 900"
+                        >
+                          Journeying Through India: A Tapestry of Culture,
+                          Color, and Contrasts
+                        </h5>
+                      </div>
+                      <div>
+                        <img
+                          src="assets/images/sucharu/2cardfooter1.jpeg"
+                          alt=""
+                          class="ml-4"
+                          style="
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            float: left;
+                          "
+                        />
+                        <p>
+                          &nbsp;&nbsp;<a href="" style="color: black"
+                            >Biswajit Saha
+                          </a>
+                          &nbsp;| &nbsp;3 min read &nbsp; |&nbsp;
+                          <a href="" style="color: black"
+                            ><i class="fa-regular fa-message"></i>&nbsp;1
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration4.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration5.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration6.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration7.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration8.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration9.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="nav-profile"
+              role="tabpanel"
+              aria-labelledby="nav-profile-tab"
+            >
+              <div class="row">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div class="card-deck mt-5">
+                    <div class="card" style="border-radius: 15px">
+                      <img
+                        src="assets/images/sucharu/inspiration9.jpg"
+                        class="card-img-top p-4"
+                        alt="..."
+                        style="height: 300px; border-radius: 50px"
+                      />
+
+                      <div class="card-body">
+                        <h5
+                          class="card-title secondCard-para"
+                          style="font-size: large; font-weight: 900"
+                        >
+                          Journeying Through India: A Tapestry of Culture,
+                          Color, and Contrasts
+                        </h5>
+                      </div>
+                      <div>
+                        <img
+                          src="assets/images/sucharu/2cardfooter2.jpg"
+                          alt=""
+                          class="ml-4"
+                          style="
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            float: left;
+                          "
+                        />
+                        <p>
+                          &nbsp;&nbsp;<a href="" style="color: black"
+                            >Biswajit Saha
+                          </a>
+                          &nbsp;| &nbsp;3 min read &nbsp; |&nbsp;
+                          <a href="" style="color: black"
+                            ><i class="fa-regular fa-message"></i>&nbsp;1
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div class="card-deck mt-5">
+                    <div class="card" style="border-radius: 15px">
+                      <img
+                        src="assets/images/sucharu/inspiration2.webp"
+                        class="card-img-top p-4"
+                        alt="..."
+                        style="height: 300px; border-radius: 50px"
+                      />
+
+                      <div class="card-body">
+                        <h5
+                          class="card-title secondCard-para"
+                          style="font-size: large; font-weight: 900"
+                        >
+                          Journeying Through India: A Tapestry of Culture,
+                          Color, and Contrasts
+                        </h5>
+                      </div>
+                      <div>
+                        <img
+                          src="assets/images/sucharu/2cardfooter2.jpg"
+                          alt=""
+                          class="ml-4"
+                          style="
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            float: left;
+                          "
+                        />
+                        <p>
+                          &nbsp;&nbsp;<a href="" style="color: black"
+                            >Biswajit Saha
+                          </a>
+                          &nbsp;| &nbsp;3 min read &nbsp; |&nbsp;
+                          <a href="" style="color: black"
+                            ><i class="fa-regular fa-message"></i>&nbsp;1
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div class="card-deck mt-5">
+                    <div class="card" style="border-radius: 15px">
+                      <img
+                        src="assets/images/sucharu/inspiration1.webp"
+                        class="card-img-top p-4"
+                        alt="..."
+                        style="height: 300px; border-radius: 50px"
+                      />
+
+                      <div class="card-body">
+                        <h5
+                          class="card-title secondCard-para"
+                          style="font-size: large; font-weight: 900"
+                        >
+                          Journeying Through India: A Tapestry of Culture,
+                          Color, and Contrasts
+                        </h5>
+                      </div>
+                      <div>
+                        <img
+                          src="assets/images/sucharu/2cardfooter1.jpeg"
+                          alt=""
+                          class="ml-4"
+                          style="
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            float: left;
+                          "
+                        />
+                        <p>
+                          &nbsp;&nbsp;<a href="" style="color: black"
+                            >Biswajit Saha
+                          </a>
+                          &nbsp;| &nbsp;3 min read &nbsp; |&nbsp;
+                          <a href="" style="color: black"
+                            ><i class="fa-regular fa-message"></i>&nbsp;1
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration4.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration5.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration6.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration7.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration8.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration9.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="nav-contact"
+              role="tabpanel"
+              aria-labelledby="nav-contact-tab"
+            >
+              <div class="row">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div class="card-deck mt-5">
+                    <div class="card" style="border-radius: 15px">
+                      <img
+                        src="assets/images/sucharu/inspiration2.webp"
+                        class="card-img-top p-4"
+                        alt="..."
+                        style="height: 300px; border-radius: 50px"
+                      />
+
+                      <div class="card-body">
+                        <h5
+                          class="card-title secondCard-para"
+                          style="font-size: large; font-weight: 900"
+                        >
+                          Journeying Through India: A Tapestry of Culture,
+                          Color, and Contrasts
+                        </h5>
+                      </div>
+                      <div>
+                        <img
+                          src="assets/images/sucharu/2cardfooter1.jpg"
+                          alt=""
+                          class="ml-4"
+                          style="
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            float: left;
+                          "
+                        />
+                        <p>
+                          &nbsp;&nbsp;<a href="" style="color: black"
+                            >Biswajit Saha
+                          </a>
+                          &nbsp;| &nbsp;3 min read &nbsp; |&nbsp;
+                          <a href="" style="color: black"
+                            ><i class="fa-regular fa-message"></i>&nbsp;1
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div class="card-deck mt-5">
+                    <div class="card" style="border-radius: 15px">
+                      <img
+                        src="assets/images/sucharu/inspiration1.webp"
+                        class="card-img-top p-4"
+                        alt="..."
+                        style="height: 300px; border-radius: 50px"
+                      />
+
+                      <div class="card-body">
+                        <h5
+                          class="card-title secondCard-para"
+                          style="font-size: large; font-weight: 900"
+                        >
+                          Journeying Through India: A Tapestry of Culture,
+                          Color, and Contrasts
+                        </h5>
+                      </div>
+                      <div>
+                        <img
+                          src="assets/images/sucharu/2cardfooter2.jpg"
+                          alt=""
+                          class="ml-4"
+                          style="
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            float: left;
+                          "
+                        />
+                        <p>
+                          &nbsp;&nbsp;<a href="" style="color: black"
+                            >Biswajit Saha
+                          </a>
+                          &nbsp;| &nbsp;3 min read &nbsp; |&nbsp;
+                          <a href="" style="color: black"
+                            ><i class="fa-regular fa-message"></i>&nbsp;1
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div class="card-deck mt-5">
+                    <div class="card" style="border-radius: 15px">
+                      <img
+                        src="assets/images/sucharu/inspiration3.webp"
+                        class="card-img-top p-4"
+                        alt="..."
+                        style="height: 300px; border-radius: 50px"
+                      />
+
+                      <div class="card-body">
+                        <h5
+                          class="card-title secondCard-para"
+                          style="font-size: large; font-weight: 900"
+                        >
+                          Journeying Through India: A Tapestry of Culture,
+                          Color, and Contrasts
+                        </h5>
+                      </div>
+                      <div>
+                        <img
+                          src="assets/images/sucharu/2cardfooter1.jpeg"
+                          alt=""
+                          class="ml-4"
+                          style="
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            float: left;
+                          "
+                        />
+                        <p>
+                          &nbsp;&nbsp;<a href="" style="color: black"
+                            >Biswajit Saha
+                          </a>
+                          &nbsp;| &nbsp;3 min read &nbsp; |&nbsp;
+                          <a href="" style="color: black"
+                            ><i class="fa-regular fa-message"></i>&nbsp;1
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration4.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration5.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration6.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration7.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration8.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration9.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade show active"
+              id="nav-home"
+              role="tabpanel"
+              aria-labelledby="nav-home-tab"
+            >
+              <div class="row">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div class="card-deck mt-5">
+                    <div class="card" style="border-radius: 15px">
+                      <img
+                        src="assets/images/sucharu/inspiration1.webp"
+                        class="card-img-top p-4"
+                        alt="..."
+                        style="height: 300px; border-radius: 50px"
+                      />
+
+                      <div class="card-body">
+                        <h5
+                          class="card-title secondCard-para"
+                          style="font-size: large; font-weight: 900"
+                        >
+                          Journeying Through India: A Tapestry of Culture,
+                          Color, and Contrasts
+                        </h5>
+                      </div>
+                      <div>
+                        <img
+                          src="assets/images/sucharu/2cardfooter2.jpg"
+                          alt=""
+                          class="ml-4"
+                          style="
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            float: left;
+                          "
+                        />
+                        <p>
+                          &nbsp;&nbsp;<a href="" style="color: black"
+                            >Biswajit Saha
+                          </a>
+                          &nbsp;| &nbsp;3 min read &nbsp; |&nbsp;
+                          <a href="" style="color: black"
+                            ><i class="fa-regular fa-message"></i>&nbsp;1
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div class="card-deck mt-5">
+                    <div class="card" style="border-radius: 15px">
+                      <img
+                        src="assets/images/sucharu/inspiration2.webp"
+                        class="card-img-top p-4"
+                        alt="..."
+                        style="height: 300px; border-radius: 50px"
+                      />
+
+                      <div class="card-body">
+                        <h5
+                          class="card-title secondCard-para"
+                          style="font-size: large; font-weight: 900"
+                        >
+                          Journeying Through India: A Tapestry of Culture,
+                          Color, and Contrasts
+                        </h5>
+                      </div>
+                      <div>
+                        <img
+                          src="assets/images/sucharu/2cardfooter2.jpg"
+                          alt=""
+                          class="ml-4"
+                          style="
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            float: left;
+                          "
+                        />
+                        <p>
+                          &nbsp;&nbsp;<a href="" style="color: black"
+                            >Biswajit Saha
+                          </a>
+                          &nbsp;| &nbsp;3 min read &nbsp; |&nbsp;
+                          <a href="" style="color: black"
+                            ><i class="fa-regular fa-message"></i>&nbsp;1
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div class="card-deck mt-5">
+                    <div class="card" style="border-radius: 15px">
+                      <img
+                        src="assets/images/sucharu/inspiration3.webp"
+                        class="card-img-top p-4"
+                        alt="..."
+                        style="height: 300px; border-radius: 50px"
+                      />
+
+                      <div class="card-body">
+                        <h5
+                          class="card-title secondCard-para"
+                          style="font-size: large; font-weight: 900"
+                        >
+                          Journeying Through India: A Tapestry of Culture,
+                          Color, and Contrasts
+                        </h5>
+                      </div>
+                      <div>
+                        <img
+                          src="assets/images/sucharu/2cardfooter1.jpeg"
+                          alt=""
+                          class="ml-4"
+                          style="
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            float: left;
+                          "
+                        />
+                        <p>
+                          &nbsp;&nbsp;<a href="" style="color: black"
+                            >Biswajit Saha
+                          </a>
+                          &nbsp;| &nbsp;3 min read &nbsp; |&nbsp;
+                          <a href="" style="color: black"
+                            ><i class="fa-regular fa-message"></i>&nbsp;1
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration4.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration5.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration6.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration7.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration8.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                  <div
+                    class="card mb-3 mt-5"
+                    style="max-width: 540px; border-radius: 10px"
+                  >
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img
+                          src="assets/images/sucharu/inspiration9.jpg"
+                          alt="..."
+                          style="
+                            width: 150px;
+                            height: 150px;
+                            margin: 20px;
+                            border-radius: 10px;
+                          "
+                        />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5
+                            class="card-title secondCard-para"
+                            style="
+                              font-weight: 900;
+                              margin-left: 30px;
+                              margin-top: 15px;
+                            "
+                          >
+                            Harmony of Inspiration: How Music Transforms
+                            Creativity and Motivation
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+            <div class="card-deck mt-5">
+              <div class="card" style="border-radius: 15px">
+                <img
+                  src="assets/images/sucharu/inspiration2.webp"
+                  class="card-img-top p-4"
+                  alt="..."
+                  style="height: 300px; border-radius: 50px"
+                />
+
+                <div class="card-body">
+                  <h5
+                    class="card-title secondCard-para"
+                    style="font-size: large; font-weight: 900"
+                  >
+                    Journeying Through India: A Tapestry of Culture, Color, and
+                    Contrasts
+                  </h5>
+                </div>
+                <div>
+                  <img
+                    src="assets/images/sucharu/2cardfooter1.jpeg"
+                    alt=""
+                    class="ml-4"
+                    style="
+                      width: 30px;
+                      height: 30px;
+                      border-radius: 50%;
+                      float: left;
+                    "
+                  />
+                  <p>
+                    &nbsp;&nbsp;<a href="" style="color: black"
+                      >Biswajit Saha
+                    </a>
+                    &nbsp;| &nbsp;3 min read &nbsp; |&nbsp;
+                    <a href="" style="color: black"
+                      ><i class="fa-regular fa-message"></i>&nbsp;1
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+            <div class="card-deck mt-5">
+              <div class="card" style="border-radius: 15px">
+                <img
+                  src="assets/images/sucharu/inspiration1.webp"
+                  class="card-img-top p-4"
+                  alt="..."
+                  style="height: 300px; border-radius: 50px"
+                />
+
+                <div class="card-body">
+                  <h5
+                    class="card-title secondCard-para"
+                    style="font-size: large; font-weight: 900"
+                  >
+                    Journeying Through India: A Tapestry of Culture, Color, and
+                    Contrasts
+                  </h5>
+                </div>
+                <div>
+                  <img
+                    src="assets/images/sucharu/2cardfooter2.jpg"
+                    alt=""
+                    class="ml-4"
+                    style="
+                      width: 30px;
+                      height: 30px;
+                      border-radius: 50%;
+                      float: left;
+                    "
+                  />
+                  <p>
+                    &nbsp;&nbsp;<a href="" style="color: black"
+                      >Biswajit Saha
+                    </a>
+                    &nbsp;| &nbsp;3 min read &nbsp; |&nbsp;
+                    <a href="" style="color: black"
+                      ><i class="fa-regular fa-message"></i>&nbsp;1
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+            <div class="card-deck mt-5">
+              <div class="card" style="border-radius: 15px">
+                <img
+                  src="assets/images/sucharu/inspiration3.webp"
+                  class="card-img-top p-4"
+                  alt="..."
+                  style="height: 300px; border-radius: 50px"
+                />
+
+                <div class="card-body">
+                  <h5
+                    class="card-title secondCard-para"
+                    style="font-size: large; font-weight: 900"
+                  >
+                    Journeying Through India: A Tapestry of Culture, Color, and
+                    Contrasts
+                  </h5>
+                </div>
+                <div>
+                  <img
+                    src="assets/images/sucharu/2cardfooter1.jpeg"
+                    alt=""
+                    class="ml-4"
+                    style="
+                      width: 30px;
+                      height: 30px;
+                      border-radius: 50%;
+                      float: left;
+                    "
+                  />
+                  <p>
+                    &nbsp;&nbsp;<a href="" style="color: black"
+                      >Biswajit Saha
+                    </a>
+                    &nbsp;| &nbsp;3 min read &nbsp; |&nbsp;
+                    <a href="" style="color: black"
+                      ><i class="fa-regular fa-message"></i>&nbsp;1
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+            <div
+              class="card mb-3 mt-5"
+              style="max-width: 540px; border-radius: 10px"
+            >
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img
+                    src="assets/images/sucharu/inspiration4.jpg"
+                    alt="..."
+                    style="
+                      width: 150px;
+                      height: 150px;
+                      margin: 20px;
+                      border-radius: 10px;
+                    "
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5
+                      class="card-title secondCard-para"
+                      style="
+                        font-weight: 900;
+                        margin-left: 30px;
+                        margin-top: 15px;
+                      "
+                    >
+                      Harmony of Inspiration: How Music Transforms Creativity
+                      and Motivation
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+            <div
+              class="card mb-3 mt-5"
+              style="max-width: 540px; border-radius: 10px"
+            >
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img
+                    src="assets/images/sucharu/inspiration5.jpg"
+                    alt="..."
+                    style="
+                      width: 150px;
+                      height: 150px;
+                      margin: 20px;
+                      border-radius: 10px;
+                    "
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5
+                      class="card-title secondCard-para"
+                      style="
+                        font-weight: 900;
+                        margin-left: 30px;
+                        margin-top: 15px;
+                      "
+                    >
+                      Harmony of Inspiration: How Music Transforms Creativity
+                      and Motivation
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+            <div
+              class="card mb-3 mt-5"
+              style="max-width: 540px; border-radius: 10px"
+            >
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img
+                    src="assets/images/sucharu/inspiration6.jpg"
+                    alt="..."
+                    style="
+                      width: 150px;
+                      height: 150px;
+                      margin: 20px;
+                      border-radius: 10px;
+                    "
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5
+                      class="card-title secondCard-para"
+                      style="
+                        font-weight: 900;
+                        margin-left: 30px;
+                        margin-top: 15px;
+                      "
+                    >
+                      Harmony of Inspiration: How Music Transforms Creativity
+                      and Motivation
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+            <div
+              class="card mb-3 mt-5"
+              style="max-width: 540px; border-radius: 10px"
+            >
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img
+                    src="assets/images/sucharu/inspiration7.jpg"
+                    alt="..."
+                    style="
+                      width: 150px;
+                      height: 150px;
+                      margin: 20px;
+                      border-radius: 10px;
+                    "
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5
+                      class="card-title secondCard-para"
+                      style="
+                        font-weight: 900;
+                        margin-left: 30px;
+                        margin-top: 15px;
+                      "
+                    >
+                      Harmony of Inspiration: How Music Transforms Creativity
+                      and Motivation
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+            <div
+              class="card mb-3 mt-5"
+              style="max-width: 540px; border-radius: 10px"
+            >
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img
+                    src="assets/images/sucharu/inspiration8.jpg"
+                    alt="..."
+                    style="
+                      width: 150px;
+                      height: 150px;
+                      margin: 20px;
+                      border-radius: 10px;
+                    "
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5
+                      class="card-title secondCard-para"
+                      style="
+                        font-weight: 900;
+                        margin-left: 30px;
+                        margin-top: 15px;
+                      "
+                    >
+                      Harmony of Inspiration: How Music Transforms Creativity
+                      and Motivation
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+            <div
+              class="card mb-3 mt-5"
+              style="max-width: 540px; border-radius: 10px"
+            >
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img
+                    src="assets/images/sucharu/inspiration9.jpg"
+                    alt="..."
+                    style="
+                      width: 150px;
+                      height: 150px;
+                      margin: 20px;
+                      border-radius: 10px;
+                    "
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5
+                      class="card-title secondCard-para"
+                      style="
+                        font-weight: 900;
+                        margin-left: 30px;
+                        margin-top: 15px;
+                      "
+                    >
+                      Harmony of Inspiration: How Music Transforms Creativity
+                      and Motivation
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- article section -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 mb-3">
+            <h1>Latest <span class="text-danger">Article</span></h1>
+          </div>
+        </div>
+
+        <!-- row 1 -->
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="card text-white article-card1 mb-3 rounded-3">
+              <div class="card-body d-flex flex-column justify-content-end">
+                <button class="btn btn-sm btn-danger rounded-pill mb-2">
+                  Technology
+                </button>
+                <h5 class="fw-bold">
+                  Embracing Elegance: The Timeless Role of Saree in Fashion
+                </h5>
+                <div class="d-flex align-items-center mt-3">
+                  <img
+                    src="assets/images/sucharu/2cardfooter1.jpeg"
+                    class="rounded-circle me-2"
+                    width="30"
+                    height="30"
+                  />
+                  <small>
+                    <a href="#" class="text-white">Biswajit Saha</a> | 3 min
+                    read |
+                    <a href="#" class="text-white"
+                      ><i class="fa-regular fa-message"></i> 1</a
+                    >
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- repeat same for card2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card text-white article-card2 mb-3 rounded-3">
+              <div class="card-body d-flex flex-column justify-content-end">
+                <button class="btn btn-sm btn-danger rounded-pill mb-2">
+                  Technology
+                </button>
+                <h5 class="fw-bold">
+                  Embracing Elegance: The Timeless Role of Saree in Fashion
+                </h5>
+                <div class="d-flex align-items-center mt-3">
+                  <img
+                    src="assets/images/sucharu/2cardfooter1.jpeg"
+                    class="rounded-circle me-2"
+                    width="30"
+                    height="30"
+                  />
+                  <small>
+                    <a href="#" class="text-white">Biswajit Saha</a> | 3 min
+                    read |
+                    <a href="#" class="text-white"
+                      ><i class="fa-regular fa-message"></i> 1</a
+                    >
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- repeat for card3 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card text-white article-card3 mb-3 rounded-3">
+              <div class="card-body d-flex flex-column justify-content-end">
+                <button class="btn btn-sm btn-danger rounded-pill mb-2">
+                  Technology
+                </button>
+                <h5 class="fw-bold">
+                  Embracing Elegance: The Timeless Role of Saree in Fashion
+                </h5>
+                <div class="d-flex align-items-center mt-3">
+                  <img
+                    src="assets/images/sucharu/2cardfooter1.jpeg"
+                    class="rounded-circle me-2"
+                    width="30"
+                    height="30"
+                  />
+                  <small>
+                    <a href="#" class="text-white">Biswajit Saha</a> | 3 min
+                    read |
+                    <a href="#" class="text-white"
+                      ><i class="fa-regular fa-message"></i> 1</a
+                    >
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- load more button -->
+        <div class="row mt-5 text-center">
+          <div class="col-12">
+            <button class="btn btn-danger btn-lg rounded-pill">
+              Load More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- subscribe section -->
+    <section class="mt-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 text-center">
+            <img
+              src="assets/images/sucharu/learnMore.png"
+              class="img-fluid"
+              alt="Learn More"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="fw-bold mb-4">Subscribe to the newsletter</h1>
+            <p class="mb-4">
+              Don't miss anything. Get all the latest posts delivered straight
+              to your inbox!
+            </p>
+            <form>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control rounded-pill"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control rounded-pill"
+                  placeholder="Your email Address"
+                />
+              </div>
+              <button class="btn btn-danger rounded-pill px-4">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+    <footer class="footer bg-dark text-white pt-5 mt-5">
+      <div class="container-fluid px-5">
+        <div class="row gy-4">
+          <!-- Brand / Intro -->
+          <div class="col-lg-4 col-md-6">
+            <h2>Sucharu</h2>
+            <p>
+              Sucharu is a premium multipurpose Ghost theme suitable for
+              personal, professional, magazine, brand blog and newsletter.
+            </p>
+            <div class="d-flex gap-3">
+              <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-white"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="text-white"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <!-- Features -->
+          <div class="col-lg-2 col-md-6">
+            <h5>Features</h5>
+            <ul class="list-unstyled mt-3">
+              <li>
+                <a href="#" class="text-white text-decoration-none">Advanced</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Management</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Corporate</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Customer</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Information</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Pages -->
+          <div class="col-lg-2 col-md-6">
+            <h5>Pages</h5>
+            <ul class="list-unstyled mt-3">
+              <li>
+                <a href="#" class="text-white text-decoration-none">Cookies</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">About</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Properties</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Licenses</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- About -->
+          <div class="col-lg-2 col-md-6">
+            <h5>About</h5>
+            <ul class="list-unstyled mt-3">
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Terms</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Contact</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >404 Error</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Bottom row -->
+        <div class="row mt-5">
+          <div class="col-12 text-center">
+            <small>© Created By Attiq Ur Rehman 2025</small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,130 @@
+
+.nav-icons a i {
+  transition: all;
+}
+.nav-icons a i:hover {
+  color: rgb(186, 46, 202);
+}
+.nav-link {
+  transition: all;
+}
+.nav-link:hover {
+  text-decoration: underline rgb(186, 46, 202);
+}
+.dropdown-item {
+  transition: all 0.3;
+}
+.dropdown-item:hover {
+  background-color: rgb(186, 46, 202);
+}
+.nav-below button {
+  border-radius: 30px;
+}
+.nav-below .col-12 {
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+}
+/* card-section */
+
+.card-section img {
+  width: 170px;
+  height: 160px;
+  border-radius: 10px;
+}
+.card-section .row {
+  justify-content: space-between;
+  margin-right: 35px;
+}
+/* 2ndcard */
+.secondCard-para {
+  transition: all;
+}
+.secondCard-para:hover {
+  cursor: pointer;
+  text-decoration: underline rgb(119, 114, 114);
+}
+
+/* editorCard section CSS */
+.editorCard-img {
+  margin-top: -7px;
+}
+/* inspiration section */
+#nav-tab button {
+  text-decoration: none;
+  transition: all;
+}
+#nav-tab button:hover {
+  color: white;
+  background-color: blueviolet;
+}
+/* article section */
+.article-card1 {
+  background-image: url(../images/sucharu/article1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.article-card2 {
+  background-image: url(../images/sucharu/article2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.article-card3 {
+  background-image: url(../images/sucharu/article3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.article-card4 {
+  background-image: url(../images/sucharu/photo4.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.article-card5 {
+  background-image: url(../images/sucharu/photo1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.article-card6 {
+  background-image: url(../images/sucharu/photo2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.article-card7 {
+  background-image: url(../images/sucharu/inspiration5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.article-card8 {
+  background-image: url(../images/sucharu/inspiration9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.article-card9 {
+  background-image: url(../images/sucharu/editor4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+/* learnMore */
+.learnMore {
+  background-color: rgb(186, 46, 202);
+}
+/* 
+foooter css */
+
+.footer {
+  background-color: black;
+  color: white;
+}
+.footer ul li {
+  list-style: none;
+}
